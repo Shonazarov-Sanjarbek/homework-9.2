@@ -1,0 +1,50 @@
+.header{
+    width: 100%;
+    position: absolute;
+    &__navbar{
+        width: 100%;
+        @include df(center, center);
+    }
+     &__collection{
+         height: 16px;
+         @include df();
+         gap: 33px;
+    }
+    &__collection{
+        height: 16px;
+        @include df();
+        gap: 33px;
+    }
+    &__item{
+         color: $bg-black;
+         font-size: 18px;
+         font-weight: 700;
+         line-height: 15px;
+         transition: .5s;
+         &:hover{
+             opacity: .7;
+             cursor: pointer;
+         }
+         &:active{
+            transform: scale(.9);
+        }
+    }
+ 
+}
+
+
+//     &__item{
+//         color: $bg-black;
+//         font-size: 12px;
+//         font-weight: 700;
+//         line-height: 15px;
+//         transition: .5s;
+//         &:hover{
+//             color: $bg-nav-hover;
+//             cursor: pointer;
+//         }
+//         &:active{
+//             transform: scale(.9);
+//         }
+//     }
+// }
